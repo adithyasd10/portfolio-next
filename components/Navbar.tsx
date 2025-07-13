@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <main className="flex justify-center p-4">
-      <nav className="flex justify-around items-center p-4 w-sm bg-gradient-to-r bg-gray-800 via-gray-900 to-black flex-row border-b border-black rounded-4xl text-gray-300 ">
+      <nav className="flex justify-around items-center p-4 w-sm bg-gradient-to-r from-blue-200 via-blue-300 to-blue-400 flex-row border-b border-black rounded-4xl text-black ">
         <Link href="/about" className="hover:text-gray-400">
           <button>About</button>
         </Link>
