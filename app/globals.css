@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.gradient-border {
+  border-image: linear-gradient(to right, #529bef, #1a60d2, #091950) 1;
+}
