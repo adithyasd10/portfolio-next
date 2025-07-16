@@ -1,6 +1,4 @@
 import Cards from '@/components/Cards'
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 
 const page = () => {
