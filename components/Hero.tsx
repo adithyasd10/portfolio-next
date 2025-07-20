@@ -1,4 +1,5 @@
 import React from 'react'
+import TechStack from './TechStack'
 
 const Hero = () => {
   return (
@@ -17,6 +18,7 @@ const Hero = () => {
     </h1>
   </div>
 </div>
+
 
   )
 }
