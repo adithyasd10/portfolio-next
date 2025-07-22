@@ -6,16 +6,16 @@ const TechStack = () => {
     <div className='flex flex-col justify-center items-center gap-3'>
       <h1 className='my-4 font-extrabold font-stretch-100% text-3xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 hover:text-gray-400 hover:hover:scale-95 hover:transition-transform'>TECH STACK</h1>
       <div className='flex w-full max-w-screen mx-auto'>
-        <BentoGrid width="250px" height="150px" name='Next.JS' image='/github.png' />
-        <BentoGrid width="450px" height="150px" name='Next.JS' image='/github.png' />
+        <BentoGrid width="250px" height="150px" name='Next.JS' image='/nextjs.png' />
+        <BentoGrid width="450px" height="150px" name='Vite' image='/vite.png' />
       </div>
       <div className='flex w-full max-w-screen mx-auto'>
-        <BentoGrid width="500px" height="150px" name='Next.JS' image='/github.png' />
-        <BentoGrid width="200px" height="150px" name='Next.JS' image='/github.png' />
+        <BentoGrid width="500px" height="150px" name='React' image='/github.png' />
+        <BentoGrid width="200px" height="150px" name='Flutter' image='/github.png' />
       </div>
       <div className='flex w-full max-w-screen mx-auto'>
-        <BentoGrid width="350px" height="150px" name='Next.JS' image='/github.png'/>
-        <BentoGrid width="350px" height="150px" name='Next.JS' image='/github.png' />
+        <BentoGrid width="350px" height="150px" name='Dart' image='/github.png'/>
+        <BentoGrid width="350px" height="150px" name='C' image='/github.png' />
       </div>
     </div>
   )
