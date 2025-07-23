@@ -10,8 +10,8 @@ const TechStack = () => {
         <BentoGrid width="450px" height="150px" name='Vite' image='/vite.png' />
       </div>
       <div className='flex w-full max-w-screen mx-auto'>
-        <BentoGrid width="500px" height="150px" name='Next.JS' image='/nextjsf.png' />
-        <BentoGrid width="200px" height="150px" name='Flutter' image='/flutterf.png' />
+        <BentoGrid width="460px" height="150px" name='Next.JS' image='/nextjsf.png' />
+        <BentoGrid width="240px" height="150px" name='Flutter' image='/flutterf.png' />
       </div>
       <div className='flex w-full max-w-screen mx-auto'>
         <BentoGrid width="350px" height="150px" name='Dart' image='/dart.png'/>

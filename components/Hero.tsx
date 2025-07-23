@@ -1,6 +1,7 @@
 import React from 'react'
 import TechStack from './TechStack'
 import Link from 'next/link'
+import { ChevronRight, StepForward } from 'lucide-react'
 
 const Hero = () => {
   return (
@@ -23,9 +24,13 @@ const Hero = () => {
   </p>
   <div className='flex flex-row justify-center items-center gap-2'>
     <Link href="/projects">
-      <button className="relative overflow-hidden group rounded-md border border-gray-400 text-gray-500 hover:text-gray-300 transition-all duration-300 hover:scale-105 text-sm px-2 py-2 md:px-6 md:py-4 my-3">
+      <button className="relative overflow-hidden group rounded-md border border-gray-400 text-gray-500 hover:text-gray-300 transition-all duration-300 hover:scale-105 text-sm px-2 py-2 md:px-5 md:py-3 my-3">
         <span className="absolute inset-0 w-0 group-hover:w-full transition-all duration-300 bg-gradient-to-r from-[#948979]/10 to-[#DFD0B8]/10"></span>
-        <span className="relative z-10">My Work</span>
+        <div className='flex flex-row justify-center items-center gap-1'>
+          <span className="relative z-10 hidden sm:block md:block">My Work</span>
+          <ChevronRight />
+        </div>
+        
       </button>
     </Link>
     
