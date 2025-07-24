@@ -1,7 +1,9 @@
+'use client';
 import React from 'react'
 import TechStack from './TechStack'
 import Link from 'next/link'
 import { ChevronRight, StepForward } from 'lucide-react'
+import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
   return (
@@ -19,9 +21,16 @@ const Hero = () => {
        Adithya S D
     </h1>
   </div>
-  <p className='my-1 p-2 font-normal text-gray-500 text-[10px] sm:text-[13px] lg:text-xl lg:my-4 '>
-    Front-End Developer | Building Scalable Interfaces
+  <p className='my-1 p-2 font-normal text-gray-500 text-[10px] sm:text-[13px] lg:text-xl lg:my-4 ' >
+     <Typewriter
+  options={{
+    strings: ['Front-End Developer', 'Next.JS Developer','Flutter Enthusiast'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
   </p>
+  
   <div className='flex flex-row justify-center items-center gap-2'>
     <Link href="/projects">
       <button className="relative overflow-hidden group rounded-md border border-gray-400 text-gray-500 hover:text-gray-300 transition-all duration-300 hover:scale-105 text-sm px-2 py-2 md:px-5 md:py-3 my-3">
