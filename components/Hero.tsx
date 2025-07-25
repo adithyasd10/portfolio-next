@@ -21,15 +21,16 @@ const Hero = () => {
        Adithya S D
     </h1>
   </div>
-  <p className='my-1 p-2 font-normal text-gray-500 text-[10px] sm:text-[13px] lg:text-xl lg:my-4 ' >
-     <Typewriter
-  options={{
-    strings: ['Front-End Developer', 'Next.JS Developer','Flutter Enthusiast'],
-    autoStart: true,
-    loop: true,
-  }}
-/>
-  </p>
+  <div className='my-1 p-2 font-normal text-gray-500 text-[10px] sm:text-[13px] lg:text-xl lg:my-4'>
+  <Typewriter
+    options={{
+      strings: ['Front-End Developer', 'Next.JS Developer', 'Flutter Enthusiast'],
+      autoStart: true,
+      loop: true,
+    }}
+  />
+</div>
+
   
   <div className='flex flex-row justify-center items-center gap-2'>
     <Link href="/projects">
