@@ -1,8 +1,7 @@
 'use client';
 import React from 'react'
-import TechStack from './TechStack'
 import Link from 'next/link'
-import { ChevronRight, StepForward } from 'lucide-react'
+import { ChevronRight } from 'lucide-react'
 import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
