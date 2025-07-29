@@ -15,7 +15,7 @@ const Cards1 = ({title,description,image,link,link1}: CardsProps) => {
   return (
     <div>
       <CardContainer className="inter-var">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-gray-950 dark:border-white/[0.2] border-black/[0.1]   h-[590px] rounded-xl p-6 border  sm:p-8  m-4 w-full max-w-[700px] px-4 mx-auto ">
+      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-gray-950 dark:border-white/[0.2] border-black/[0.1]   h-[590px] rounded-xl p-6 border  sm:p-8  m-1 w-full max-w-[700px] px-4 mx-auto ">
         <CardItem
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
