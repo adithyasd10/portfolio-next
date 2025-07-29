@@ -30,7 +30,7 @@ const Cards1 = ({title,description,image,link,link1}: CardsProps) => {
           {description}
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
-          <img
+          <Image
             src={image}
             height="1000"
             width="1000"
